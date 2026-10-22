@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "integration": "playwright test", 
+    "integration": "playwright test",
     "integration:open": "playwright test --ui",
     "integration:codegen": "playwright codegen"
   },
@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.41.2",
+    "@playwright/test": "^1.55.1",
     "@types/node": "^20.11.20"
   }
 }
